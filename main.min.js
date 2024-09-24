@@ -1,0 +1,1 @@
+var a=(function(){var A='contents',b=function(){var _=document.getElementById('attribute-to-change');_.innerHTML=A};return{callChangeHTML:function(){b();console.log(A)}}})();a.callChangeHTML();console.log(a.contents);
